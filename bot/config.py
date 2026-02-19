@@ -3,13 +3,13 @@ import os
 
 class Config:
 
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("31069758"))
+    API_HASH = os.environ.get("e836cc625b631f83243ac1715b9e1bf2")
+    BOT_TOKEN = os.environ.get("7991775973:AAFk0srDRGClFXMMO9WItprhhCn5QG-vIv4")
     SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")]
+    LOG_CHANNEL = int(os.environ.get("-1002477125005"))
+    DATABASE_URL = os.environ.get("mongodb+srv://Sonu:filtersearch67@cluster0.hqfrury.mongodb.net/?appName=Cluster0")
+    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "8546591901").split(" ")]
     MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 2))
     MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
     TRACK_CHANNEL = int(os.environ.get("TRACK_CHANNEL", False))
